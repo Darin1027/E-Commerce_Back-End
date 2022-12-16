@@ -6,7 +6,7 @@ const { Category, Product } = require("../../models");
 // find all categories
 router.get("/", async (req, res) => {
   try {
-    const CategoryData = await Location.findAll();
+    const CategoryData = await Category.findAll();
     res.status(200).json(CategoryData);
   } catch (err) {
     res.status(500).json(err);
@@ -65,7 +65,7 @@ router.put("/:id", async (req, res) => {
 // delete a category by its `id` value
 router.delete("/:id", async (req, res) => {
   try {
-    const CategoryData = await Book.destroy({
+    const CategoryData = await Category.destroy({
       where: {
         id: req.params.id,
       },
