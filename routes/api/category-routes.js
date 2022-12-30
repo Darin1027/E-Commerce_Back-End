@@ -1,15 +1,18 @@
 const router = require("express").Router();
 const { Category, Product } = require("../../models");
+const { findAll } = require(`../../models/Product`);
 
 // The `/api/categories` endpoint
 
 // find all categories
 router.get("/", async (req, res) => {
   try {
-    const CategoryData = await Category.findAll();
+    const CategoryData = await Category.findAll({
+      include: [{model: Product}]
+    })
     res.status(200).json(CategoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -20,15 +23,13 @@ router.get("/:id", async (req, res) => {
       // JOIN with category, using the Trip through table
       include: [{ model: Product }],
     });
-
     if (!CategoryData) {
-      res.status(404).json({ message: "No location found with this id!" });
+      res.status(400).json({ message: "No location found with this id!" });
       return;
     }
-
     res.status(200).json(CategoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -55,10 +56,9 @@ router.put("/:id", async (req, res) => {
         },
       }
     );
-
     res.status(200).json(CategoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -70,10 +70,9 @@ router.delete("/:id", async (req, res) => {
         id: req.params.id,
       },
     });
-
     res.status(200).json(CategoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
