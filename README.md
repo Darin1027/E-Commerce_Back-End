@@ -1,8 +1,8 @@
-# E-commerce-Back-End
+# E-Commerce Back End!
 
-Module 13 Challenge: Object-Relational Mapping (ORM) Challenge: E-commerce Back End
+## Description:
 
-## User Story
+- User Story
 
 ```
 AS A manager at an internet retail company
@@ -10,7 +10,7 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
-### Acceptance Criteria
+- Acceptance Criteria
 
 ```
 GIVEN a functional Express.js API
@@ -26,64 +26,88 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Deliverables: 10%
+## Table of Contents
 
-Your GitHub repository containing your application code.
+1. [ Description. ](#description)
+2. [ Installation. ](#installation)
+3. [ Usage. ](#usage)
+4. [ License. ](#license)
+5. [ Tests. ](#tests)
+6. [ Questions. ](#questions)
+7. [ Screenshots. ](#screenshots)
+8. [ Contributors. ](#contributors)
+9. [ Resources. ](#resources)
+10. [ Links. ](#links)
 
-## Walkthrough Video: 37%
+## Installation
 
-A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your README file.
+- N/A
 
-The walkthrough video must show all of the technical acceptance criteria being met.
+## Usage:
 
-The walkthrough video must demonstrate how to create the schema from the MySQL shell.
+- N/A
 
-The walkthrough video must demonstrate how to seed the database from the command line.
+## License
 
-The walkthrough video must demonstrate how to start the application’s server.
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia Core.
+```
+MIT License
 
-The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
+Copyright (c) 2022 Holiday-Wishlist-App
 
-The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Technical Acceptance Criteria: 40%
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Satisfies all of the preceding acceptance criteria plus the following:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-Uses the MySQL2 Links to an external site.and Sequelize Links to an external site.packages to connect to a MySQL database.
+- https://opensource.org/licenses/MIT
 
-Uses the dotenv package Links to an external site.to use environment variables to store sensitive data, like a user’s MySQL username, password, and database name.
+## Tests
 
-Syncs Sequelize models to a MySQL database on the server start.
+- N/A
 
-Includes column definitions for all four models outlined in the Challenge instructions.
+## Screenshots
 
-Includes model associations outlined in the Challenge instructions.
+- N/A
 
-## Repository Quality: 13%
+## Contributors:
 
-Repository has a unique name.
+- Darin Palombo [dplb1027@gmail.com]
 
-Repository follows best practices for file structure and naming conventions.
+# Questions:
 
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+Want to see more of my work?
 
-Repository contains multiple descriptive commit messages.
+- [Github Link](https://github.com/Darin1027)
+  <br/>
 
-Repository contains a high-quality README with description and a link to a walkthrough video.
+## Contact Me:
 
-## How to Submit the Challenge
+dplb1027@gmail.com
 
-You are required to submit BOTH of the following for review:
+## Links
 
-A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
+- [Github Link]()
+- [Deployed Link]()
 
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Resources
 
-## NOTE
-
-You are allowed to miss up to two Challenge assignments and still earn your certificate. If you complete all Challenge assignments, your lowest two grades will be dropped. If you wish to skip this assignment, click Next, and move on to the next Module.
-
-Comments are disabled for graded submissions in BootCamp Spot. If you have questions about your feedback, please notify your instructional staff or the Student Success Manager. If you would like to resubmit your work for an improved grade, you can use the Resubmit Assignment button to upload new links. You may resubmit up to three times for a total of four submissions.
+- https://www.npmjs.com/package/mysql2
+- https://www.npmjs.com/package/sequelize
+- https://www.npmjs.com/package/dotenv
+- https://www.npmjs.com/package/express
