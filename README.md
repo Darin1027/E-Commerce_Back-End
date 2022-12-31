@@ -83,7 +83,15 @@ SOFTWARE.
 
 ## Screenshots
 
-- N/A
+![Photo ex.1](./assets/Screenshot%201%202022-12-31%20073223.png)
+
+![Photo ex.2](./assets/Screenshot%202%202022-12-31%20073401.png)
+
+![Photo ex.3](./assets/Screenshot%203%202022-12-31%20073435.png)
+
+![Photo ex.4](./assets/Screenshot%204%202022-12-31%20073602.png)
+
+![Photo ex.5](./assets/Screenshot%205%202022-12-31%20073640.png)
 
 ## Contributors:
 
