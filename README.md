@@ -102,8 +102,8 @@ dplb1027@gmail.com
 
 ## Links
 
-- [Github Link]()
-- [Deployed Link]()
+- [Github Link](https://github.com/Darin1027/E-Commerce_Back-End)
+- [Demo Video Link](https://watch.screencastify.com/v/HiB7wXFrwCJlPA8oXFmM)
 
 ## Resources
 
