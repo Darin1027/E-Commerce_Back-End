@@ -8,8 +8,8 @@ const { findAll } = require(`../../models/Product`);
 router.get("/", async (req, res) => {
   try {
     const CategoryData = await Category.findAll({
-      include: [{model: Product}]
-    })
+      include: [{ model: Product }],
+    });
     res.status(200).json(CategoryData);
   } catch (err) {
     res.status(400).json(err);
